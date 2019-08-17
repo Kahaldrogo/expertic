@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Ma+Shan+Zheng&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.btn{
+    font-size: 12px;
+}
+.dropdown-item{
+    font-size: 12px;
+}
+#logo{
+     
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4rem !important;
+    color: rgb(222, 230, 238);
+}
+#log{
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 2rem !important;
+    color: rgb(225, 232, 238);
+    text-decoration: underline;
+}
+#nav-bar{
+    position: sticky;
+    top:10px;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#fd5f00,#da4302);
+    padding: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: aliceblue !important;
+    font-weight: 400;
+    float: right;
+    text-align: left;
+    
+}
+.fa-bars{
+    color: aliceblue;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.dropdown-menu{
+    background: #da4302;
+}
+
+/*banniere*/
+#banner{
+    background-image: linear-gradient(to right,#fd5f00,#da4302);
+    color: aliceblue;
+    padding-top: 5%;
+}
+.promo-titre{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    
+
+}
+.bottom-img{
+    width: 100%;
+}
+#services{
+    background-color: rgb(244, 250, 250);
+}
+.services-img{
+    width: 200px;
+    height: 400px;
+    background-color: aliceblue;
+}
+.txt{
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+li{
+    list-style: none;
+}
+
+
+.title::before{
+    content: "";
+    background: #fd5f00;
+    height: 5px;
+    width: 200px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: "";
+    background: #fd5f00;
+    height: 10px;
+    width: 50px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+
+.list-type1{
+    width:400px;
+    margin:0 auto;
+    }
+    
+    .list-type1 ol{
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin-bottom: 2em;
+    }
+    .list-type1 ol ol{
+    margin: 0 0 0 2em;
+    }
+    
+    .list-type1 a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #da4302;
+    color: #000;
+    text-decoration: none;
+    -moz-border-radius: .2em;
+    -webkit-border-radius: .3em;
+    border-radius: 10em;
+    transition: all .2s ease-in-out;
+    }
+    
+    .list-type1 a:hover{
+    background: #fd5f00;
+    text-decoration:none;
+    transform: scale(1.1);
+    }
+    
+    .list-type1 a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background:#fd5f00;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    color:#FFF;
+    }
+
+    /*---A propos---*/
+    #about-us{
+        background: #f3f2f1;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .about-title{
+        font-size: 20px;
+        font-weight: 600;
+        margin-top:8%;
+        font-family: 'Kalam', cursive;
+        color: #fd5f00;
+    }
+
+
+    /*---------footer-----------*/
+    .footer-top{
+        background-image: linear-gradient(to right,#fd5f00,#da4302);
+        padding: 80px 0;
+    }
+    h2{
+        margin-top:45px;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .segente-two ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+
+    }
+    .segente-two ul li{
+        border-bottom: 1px solid black;
+        line-height: 40px;
+    }
+
+    .segente-two ul li a{
+        color: rgb(32, 31, 31) ;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
